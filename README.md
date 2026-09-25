@@ -88,9 +88,6 @@ Das System ist als saubere 3-Tier-Architektur aufgebaut und wird auf einem lokal
 
 Aus Gründen des Urheberrechts und zum Schutz des geistigen Eigentums ist der Quellcode dieses Projekts **nicht öffentlich zugänglich (Closed Source)**.
 
-> 💡 **Für Recruiter, Software Architekten & potenzielle Arbeitgeber:**  
-> Ein tieferer Einblick in den Quellcode (Angular Components, Spring Boot Services, Kubernetes-Manifeste) kann auf Anfrage sehr gerne im Rahmen eines technischen Vorstellungsgesprächs oder einer Remote-Live-Demo gewährt werden.
+> 💡 **Für Recruiter, Software-Architekten, potenzielle Arbeitgeber & Auftraggeber:**  
+> Ein tieferer Einblick in den Quellcode (Angular Components, Spring Boot Services, Kubernetes-Manifeste) kann auf Anfrage sehr gerne im Rahmen eines technischen Kennenlerngesprächs oder einer Remote-Live-Demo gewährt werden.
 
-💡 Für Recruiter, Software Architekten & potenzielle Arbeitgeber:
-
-Ein tieferer Einblick in den Quellcode (Angular Components, Spring Boot Services, Kubernetes-Manifeste) kann auf Anfrage sehr gerne im Rahmen eines technischen Vorstellungsgesprächs oder einer Remote-Live-Demo gewährt werden.
