@@ -48,6 +48,7 @@ Das System ist als saubere 3-Tier-Architektur aufgebaut und wird auf einem lokal
 |                           KUBERNETES INFRASTRUCTURE                             |
 | Deployments | Services | Ingress | K8s Secrets | VolumeMounts | Health Checks   |
 -----------------------------------------------------------------------------------
+```
 
 ### Technologiestack im Detail
 
