@@ -48,3 +48,28 @@ Das System ist als saubere 3-Tier-Architektur aufgebaut und wird auf einem lokal
 |                           KUBERNETES INFRASTRUCTURE                             |
 | Deployments | Services | Ingress | K8s Secrets | VolumeMounts | Health Checks   |
 -----------------------------------------------------------------------------------
+
+Technologiestack im Detail
+Frontend: Angular, TypeScript, RxJS, HTML5 / SCSS (Custom Canvas Charting für SMA 50/200 & Elliott-Wellen)
+
+Backend: Java 17/21, Spring Boot, Spring Data JPA, Hibernate, RESTful Web Services, Maven
+
+Datenbank: PostgreSQL (ausgeführt als isolierter Kubernetes-Pod mit HostPath Volume Persistenz)
+
+DevOps & Infrastructure: Kubernetes (k8s Manifests, Secrets-Management via secretKeyRef), Docker (Multi-Stage Builds), Shell-Scripting (Automatisierte DB-Backups)
+
+Architecture: Clean Architecture, Decoupled Configuration Pattern
+
+🖼️ Einblicke in die Anwendung (Screenshots)
+Hinweis: Die Screenshots dienen zur Veranschaulichung der Benutzeroberfläche und Architektur.
+
+Abbildung 1: Haupt-Dashboard mit Portfolio-Positionen, Kaufpreisen und Live-Performancedaten
+
+Abbildung 2: Chart-Overlay mit SMA 50, SMA 200, Kaufpreis, Elliott-Wellen-Muster und grünem API-Kursziel
+
+🔒 Quellcode & Code-Review Policy
+Aus Gründen des Urheberrechts und zum Schutz des geistigen Eigentums ist der Quellcode dieses Projekts nicht öffentlich zugänglich (Closed Source).
+
+💡 Für Recruiter, Software Architekten & potenzielle Arbeitgeber:
+
+Ein tieferer Einblick in den Quellcode (Angular Components, Spring Boot Services, Kubernetes-Manifeste) kann auf Anfrage sehr gerne im Rahmen eines technischen Vorstellungsgesprächs oder einer Remote-Live-Demo gewährt werden.
