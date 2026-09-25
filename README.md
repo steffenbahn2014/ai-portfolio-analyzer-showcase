@@ -49,26 +49,46 @@ Das System ist als saubere 3-Tier-Architektur aufgebaut und wird auf einem lokal
 | Deployments | Services | Ingress | K8s Secrets | VolumeMounts | Health Checks   |
 -----------------------------------------------------------------------------------
 
-Technologiestack im Detail
-Frontend: Angular, TypeScript, RxJS, HTML5 / SCSS (Custom Canvas Charting für SMA 50/200 & Elliott-Wellen)
+### Technologiestack im Detail
 
-Backend: Java 17/21, Spring Boot, Spring Data JPA, Hibernate, RESTful Web Services, Maven
+* **Frontend:** Angular, TypeScript, RxJS, HTML5 / SCSS (Custom Canvas Charting für SMA 50/200 & Elliott-Wellen)
+* **Backend:** Java 17/21, Spring Boot, Spring Data JPA, Hibernate, RESTful Web Services, Maven
+* **Datenbank:** PostgreSQL (ausgeführt als isolierter Kubernetes-Pod mit HostPath Volume Persistenz)
+* **DevOps & Infrastructure:** Kubernetes (k8s Manifests, Secrets-Management via `secretKeyRef`), Docker (Multi-Stage Builds), Shell-Scripting (Automatisierte DB-Backups)
+* **Architecture:** Clean Architecture, Decoupled Configuration Pattern
 
-Datenbank: PostgreSQL (ausgeführt als isolierter Kubernetes-Pod mit HostPath Volume Persistenz)
+---
 
-DevOps & Infrastructure: Kubernetes (k8s Manifests, Secrets-Management via secretKeyRef), Docker (Multi-Stage Builds), Shell-Scripting (Automatisierte DB-Backups)
+## 🖼️ Einblicke in die Anwendung (Screenshots)
 
-Architecture: Clean Architecture, Decoupled Configuration Pattern
+*Hinweis: Die Screenshots dienen zur Veranschaulichung der Benutzeroberfläche und Architektur.*
 
-🖼️ Einblicke in die Anwendung (Screenshots)
-Hinweis: Die Screenshots dienen zur Veranschaulichung der Benutzeroberfläche und Architektur.
+![Dashboard Overview](./assets/dashboard-overview.jpg)  
+*Abbildung 1: Haupt-Dashboard mit Portfolio-Übersicht, Asset-Verteilung und aggregierten Performancedaten*
 
-Abbildung 1: Haupt-Dashboard mit Portfolio-Positionen, Kaufpreisen und Live-Performancedaten
+![Detailed Asset Allocation](./assets/detailed-asset-allocation.jpg)  
+*Abbildung 2: Detaillierte Asset-Allokation mit Donut-Chart-Visualisierung und prozentualer Verteilung*
 
-Abbildung 2: Chart-Overlay mit SMA 50, SMA 200, Kaufpreis, Elliott-Wellen-Muster und grünem API-Kursziel
+![Dashboard Items](./assets/dashboard-items.jpg)  
+*Abbildung 3: Übersichtliche Kachelansicht der einzelnen Portfolio-Positionen inklusive Kurs-Trends*
 
-🔒 Quellcode & Code-Review Policy
-Aus Gründen des Urheberrechts und zum Schutz des geistigen Eigentums ist der Quellcode dieses Projekts nicht öffentlich zugänglich (Closed Source).
+![Item Chart Analysis](./assets/item-chart.jpg)  
+*Abbildung 4: Technisches Chart-Overlay (SMA 50, SMA 200, Kaufpreis, Elliott-Wellen-Muster & API-Kursziel)*
+
+![Portfolio Management](./assets/portfolio-management.jpg)  
+*Abbildung 5: Tabellarische Verwaltung aller Wertpapiere, Einstandskurse und Transaktionshistorien*
+
+![New Transaction Modal](./assets/new-transaction.jpg)  
+*Abbildung 6: Dialogfenster zur Erfassung und Validierung neuer Portfolio-Transaktionen*
+
+---
+
+## 🔒 Quellcode & Code-Review Policy
+
+Aus Gründen des Urheberrechts und zum Schutz des geistigen Eigentums ist der Quellcode dieses Projekts **nicht öffentlich zugänglich (Closed Source)**.
+
+> 💡 **Für Recruiter, Software Architekten & potenzielle Arbeitgeber:**  
+> Ein tieferer Einblick in den Quellcode (Angular Components, Spring Boot Services, Kubernetes-Manifeste) kann auf Anfrage sehr gerne im Rahmen eines technischen Vorstellungsgesprächs oder einer Remote-Live-Demo gewährt werden.
 
 💡 Für Recruiter, Software Architekten & potenzielle Arbeitgeber:
 
