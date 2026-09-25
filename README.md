@@ -64,22 +64,22 @@ Das System ist als saubere 3-Tier-Architektur aufgebaut und wird auf einem lokal
 
 *Hinweis: Die Screenshots dienen zur Veranschaulichung der Benutzeroberfläche und Architektur.*
 
-![Dashboard Overview](./assets/dashboard-overview.jpg)  
+![Dashboard Overview](assets/dashboard-overview.jpg)  
 *Abbildung 1: Haupt-Dashboard mit Portfolio-Übersicht, Asset-Verteilung und aggregierten Performancedaten*
 
-![Detailed Asset Allocation](./assets/detailed-asset-allocation.jpg)  
+![Detailed Asset Allocation](assets/detailed-asset-allocation.jpg)  
 *Abbildung 2: Detaillierte Asset-Allokation mit Donut-Chart-Visualisierung und prozentualer Verteilung*
 
-![Dashboard Items](./assets/dashboard-items.jpg)  
+![Dashboard Items](assets/dashboard-items.jpg)  
 *Abbildung 3: Übersichtliche Kachelansicht der einzelnen Portfolio-Positionen inklusive Kurs-Trends*
 
-![Item Chart Analysis](./assets/item-chart.jpg)  
+![Item Chart Analysis](assets/item-chart.jpg)  
 *Abbildung 4: Technisches Chart-Overlay (SMA 50, SMA 200, Kaufpreis, Elliott-Wellen-Muster & API-Kursziel)*
 
-![Portfolio Management](./assets/portfolio-management.jpg)  
+![Portfolio Management](assets/portfolio-management.jpg)  
 *Abbildung 5: Tabellarische Verwaltung aller Wertpapiere, Einstandskurse und Transaktionshistorien*
 
-![New Transaction Modal](./assets/new-transaction.jpg)  
+![New Transaction Modal](assets/new-transaction.jpg)  
 *Abbildung 6: Dialogfenster zur Erfassung und Validierung neuer Portfolio-Transaktionen*
 
 ---
